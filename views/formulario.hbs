@@ -1,0 +1,19 @@
+<form action="formulario" action="post">
+
+
+  <label>Nombre Completo </label>
+  <input type="text" name="txtNombre"
+  value="{{txtNombre}}" placeholder=""/>
+  <br>
+  <label>Genero</label>
+  <input type="radio" name="genMasculino" value="M"{{Mchecked}}/>
+  Masculino
+
+  <input type="radio" name="genFemenino" value="F"{{Fchecked}} />
+  Femenino
+  <br>
+  <input type="submit" value="Enviar Valor"/>
+</form>
+<div >
+  {{resultado}}
+</div>
